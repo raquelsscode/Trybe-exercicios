@@ -1,6 +1,7 @@
 # Trybe
-​
+
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Raquel Santos](https://www.linkedin.com/in/raquel-santos-bb8035150/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+master
 ​
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 ​
@@ -274,4 +275,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 - [ ] 38-1: _Nó e Listas Encadeadas_
 - [ ] 38-2: _Pilhas e Filas_
+trybe-skills-updates
 - [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
+​
+# [...]
+
