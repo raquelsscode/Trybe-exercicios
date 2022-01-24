@@ -1,2 +1,4 @@
 - Html
 - JavaScript
+HTML
+CSS
