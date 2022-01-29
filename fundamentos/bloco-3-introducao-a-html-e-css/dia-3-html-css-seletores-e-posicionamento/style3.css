@@ -1,0 +1,11 @@
+p, h1{ 
+    text-align: center;
+}
+li:hover {
+    background-color: crimson;
+    list-style: none;
+}
+li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
