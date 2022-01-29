@@ -3,9 +3,12 @@ p, h1{
 }
 li:hover {
     background-color: crimson;
-    list-style: none;
+    
 }
 li:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+li {
     list-style: none;
 }
