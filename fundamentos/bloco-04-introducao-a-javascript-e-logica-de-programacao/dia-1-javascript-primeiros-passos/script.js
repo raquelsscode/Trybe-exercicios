@@ -32,7 +32,7 @@ if (number1 > number2 && number3) {
 }
 
 // ITEM 4
-const valor = 0
+const valor = 0;
 
 if (valor > 0) {
     console.log('positive')
@@ -40,4 +40,22 @@ if (valor > 0) {
     console.log('negative')
 } else {
     console.log('zero')
+}
+// ITEM 5
+const valor1 = 60;
+const valor2 = -4;
+const valor3 = 60;
+
+let sumOfAngles = valor1 + valor2 + valor3;
+
+let todosOsAngulosPositivos = valor1 > 0 && valor2 > 0 && valor3 > 0;
+
+if (todosOsAngulosPositivos) {
+    if (sumOfAngles === 180) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+} else {
+    console.log("error 404")
 }
