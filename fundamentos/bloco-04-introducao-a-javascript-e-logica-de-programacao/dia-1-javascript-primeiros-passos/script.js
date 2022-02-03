@@ -59,3 +59,35 @@ if (todosOsAngulosPositivos) {
 } else {
     console.log("error 404")
 }
+// ITEM 6
+let pecadexadrez = 'rei'
+
+switch (pecadexadrez.toLowerCase()) {
+    case 'peão':
+        console.log('Uma casa para frente, no inicio duas para frente')
+        break;
+
+    case 'torre':
+        console.log('linha reta horizontalmente e verticalmente')
+        break;
+
+    case 'cavalo':
+        console.log('duas casas horizontalmente ou verticalmente em L')
+        break;
+
+    case 'rainha':
+        console.log('em linha reta - verticalmente, horizontalmente ou diagonalmente')
+        break;
+
+    case 'rei':
+        console.log('Uma casa em qualquer direção')
+        break;
+
+    case 'bispo':
+        console.log('diagonal')
+        break;
+
+    default:
+        console.log('Peça Inválida')
+
+}
