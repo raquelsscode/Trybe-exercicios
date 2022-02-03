@@ -41,6 +41,7 @@ if (valor > 0) {
 } else {
     console.log('zero')
 }
+
 // ITEM 5
 const valor1 = 60;
 const valor2 = -4;
@@ -59,6 +60,7 @@ if (todosOsAngulosPositivos) {
 } else {
     console.log("error 404")
 }
+
 // ITEM 6
 let pecadexadrez = 'rei'
 
@@ -91,6 +93,7 @@ switch (pecadexadrez.toLowerCase()) {
         console.log('Peça Inválida')
 
 }
+
 // ITEM 7
 const porcentagem = -4
 
@@ -108,4 +111,17 @@ if (porcentagem < 0 || porcentagem > 100) {
     console.log('E')
 } else if (porcentagem < 50) {
     console.log('F')
+}
+
+// ITEM 8
+const numb1 = 1
+const numb2 = 7
+const numb3 = 9
+
+const treenumb = numb1 || numb2 || numb3
+
+if (treenumb % 2 == 0) {
+    console.log('true')
+} else {
+    console.log('false')
 }
