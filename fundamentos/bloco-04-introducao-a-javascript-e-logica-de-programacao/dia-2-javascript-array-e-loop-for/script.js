@@ -45,3 +45,25 @@ for (let index = 1; index < numbers.length; index += 1) {
 }
 
 console.log(numeroMaior);
+
+// ITEM 6
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let count = 0
+for (let number of numbers) {
+    if (number % 2 !== 0) {
+        count += 1
+    }
+}
+if (count > 0) {
+    console.log(count)
+} else console.log("nenhum valor ímpar encontrado")
+
+// ITEM 7
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numeroMenor = numbers[0];
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] < numeroMenor) {
+        numeroMenor = numbers[index];
+    }
+}
+console.log(numeroMenor);
