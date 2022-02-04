@@ -134,3 +134,15 @@ if (odd1 % 2 !== 0 || odd2 % 2 !== 0 || odd3 % 2 !== 0) {
 } else {
     console.log('false')
 }
+
+//ITEM 10
+const custoProduto = 0
+const valorDeVenda = 200
+
+if (valorDeVenda < 0 || custoProduto < 0) {
+    console.log('Mensagem de erro')
+} else {
+    const lucro = valorDeVenda - custoProduto - custoProduto * 0.2
+
+    console.log(lucro * 1000)
+}
