@@ -74,3 +74,12 @@ for (let number = 1; number <= 25; number += 1) {
     numbers.push(number)
 }
 console.log(numbers)
+
+// ITEM 9
+let numbers = [];
+for (let number = 1; number <= 25; number += 1) {
+    numbers.push(number)
+}
+for (let number of numbers) {
+    console.log(number / 2)
+}
