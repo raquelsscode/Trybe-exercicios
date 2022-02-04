@@ -114,14 +114,61 @@ if (porcentagem < 0 || porcentagem > 100) {
 }
 
 // ITEM 8
-const numb1 = 1
-const numb2 = 7
+const numb1 = 3
+const numb2 = 4
 const numb3 = 9
 
-const treenumb = numb1 || numb2 || numb3
-
-if (treenumb % 2 == 0) {
+if (numb1 % 2 == 0 || numb2 % 2 == 0 || numb3 % 2 == 0) {
     console.log('true')
 } else {
     console.log('false')
 }
+
+//ITEM 9
+const odd1 = 7
+const odd2 = 3
+const odd3 = 9
+
+if (odd1 % 2 !== 0 || odd2 % 2 !== 0 || odd3 % 2 !== 0) {
+    console.log('true')
+} else {
+    console.log('false')
+}
+
+//ITEM 10
+const custoProduto = 0
+const valorDeVenda = 200
+
+if (valorDeVenda < 0 || custoProduto < 0) {
+    console.log('Mensagem de erro')
+} else {
+    const lucro = valorDeVenda - custoProduto - custoProduto * 0.2
+
+    console.log(lucro * 1000)
+}
+
+// ITEM 11
+const salarioBruto = 3000
+let aliquotaINSS = 0.08 * salarioBruto
+let aliquotaIR = 0
+
+
+if (salarioBruto >= 1556.95 && salarioBruto < 2594.92) {
+    aliquotaINSS = 0.09 * salarioBruto
+} else if (salarioBruto >= 2594.92 && salarioBruto < 5189.82) {
+    aliquotaINSS = 0.11 * salarioBruto
+} else if (salarioBruto >= 5189.82) {
+    aliquotaINSS = 570.88
+}
+const salarioBase = salarioBruto - aliquotaINSS
+if (salarioBase >= 1903.99 && salarioBase < 2826.65) {
+    aliquotaIR = salarioBase * 0.075 - 142.80
+} else if (salarioBase >= 2826.65 && salarioBase < 3751.05) {
+    aliquotaIR = salarioBase * 0.15 - 354.80
+} else if (salarioBase >= 3751.05 && salarioBase < 4664.68) {
+    aliquotaIR = salarioBase * 0.225 - 636.13
+} else if (salarioBase >= 4664.68) {
+    aliquotaIR = salarioBase * 0.275 - 869.36
+}
+const salarioLiquido = salarioBase - aliquotaIR
+console.log(salarioLiquido)
