@@ -114,13 +114,22 @@ if (porcentagem < 0 || porcentagem > 100) {
 }
 
 // ITEM 8
-const numb1 = 1
-const numb2 = 7
+const numb1 = 3
+const numb2 = 4
 const numb3 = 9
 
-const treenumb = numb1 || numb2 || numb3
+if (numb1 % 2 == 0 || numb2 % 2 == 0 || numb3 % 2 == 0) {
+    console.log('true')
+} else {
+    console.log('false')
+}
 
-if (treenumb % 2 == 0) {
+//ITEM 9
+const odd1 = 7
+const odd2 = 3
+const odd3 = 9
+
+if (odd1 % 2 !== 0 || odd2 % 2 !== 0 || odd3 % 2 !== 0) {
     console.log('true')
 } else {
     console.log('false')
