@@ -10,3 +10,10 @@ console.log('Bem-vinda,' + info.personagem)
 info.recorrente = 'Sim'
 
 console.log(info)
+
+//ITEM 3
+for (let key in info) {
+    console.log(key)
+}
+
+//ITEM 4
