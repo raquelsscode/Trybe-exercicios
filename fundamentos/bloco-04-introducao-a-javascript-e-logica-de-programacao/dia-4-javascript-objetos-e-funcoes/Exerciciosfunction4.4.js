@@ -36,3 +36,17 @@ function indiceDoMenor(numeros) {
 }
 
 console.log(indiceDoMenor([2, 4, 6, 7, 10, 0, -3]));
+
+//ITEM 4
+
+function indiceDoMenor(nomes) {
+    let maiorNome = 0;
+    for (let indice in nomes) {
+        if (nomes[maiorNome] < nomes[indice]) {
+            maiorNome = indice;
+        }
+    }
+    return maiorNome;
+}
+
+console.log(indiceDoMenor(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
