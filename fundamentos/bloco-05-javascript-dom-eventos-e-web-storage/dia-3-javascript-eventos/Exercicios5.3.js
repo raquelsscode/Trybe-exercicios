@@ -42,3 +42,14 @@ for (index = 0; index < dezDaysList.length; index += 1) {
     days.appendChild(lista);
 
 }
+
+function buttondeholiday(nomeDoBotao) {
+    let button = document.querySelector(".buttons-container");
+    let buttonname = document.createElement('button');
+    let newButtonID = 'btn-holiday'
+    buttonname.innerHTML = nomeDoBotao
+    buttonname.id = newButtonID
+    console.log(button)
+    button.appendChild(buttonname);
+}
+buttondeholiday('Feriados')
