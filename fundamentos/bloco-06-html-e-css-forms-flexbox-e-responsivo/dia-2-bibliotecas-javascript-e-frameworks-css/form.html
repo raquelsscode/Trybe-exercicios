@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio dia 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ganhe uma viagem da TrypeTrip!</h1>
+        <section>Preencha o formulário abaixo para concorrer a uma viagem com a TrybeTrip!😎</section>
+    </header>
+    <main>
+        <article>
+            <form action="formcompleted.html" method="GET" enctype="multipart/form-data">
+                <section id="formFullName" class="lines">
+                    <label for="nome-completo">Nome Completo</label>
+                    <input type="text" name="nome" id="nome-completo" required maxlength="40" minlength="10" class="select">
+                </section>
+                <section id="emailform" class="lines">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" required maxlength="50" minlength="10" class="select">
+                </section>
+                <section id="OptionsDestinoFavorito" class="lines">
+                    <label for="destinos-favoritos">
+                <input type="radio" name="destinos" id="destinos-favoritos" value="japao" checked>Japão
+            </label>
+
+                    <label for="destinos-favoritos2">
+                <input type="radio" name="destinos" id="destinos-favoritos2" value="cancun" >Cancún
+            </label>
+
+                    <label for="destinos-favoritos3">
+                <input type="radio" name="destinos" id="destinos-favoritos3" value="caribe" >Caribe
+            </label>
+
+                    <label for="destinos-favoritos4">
+                <input type="radio" name="destinos" id="destinos-favoritos4" value="fernandoDeNoronha" >Fernando de Noronha
+            </label>
+                </section>
+                <section id="textarea" class="lines">
+                    <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+                    <textarea class="select" name="textarea" id="whywin" cols="50" rows="10" maxlength="500" required></textarea>
+                </section>
+                <section id="date" class="lines">
+                    <p>Qual a melhor data para realizar sua viagem?</p>
+                    <input class="select" type="date" name="date" id="datetrip" required>
+                </section>
+                <section id="news" class="lines">
+                    <input class="select" type="checkbox" name="novidades" id="novidades">
+                    <label for="novidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                    </label>
+                </section>
+                <section id="photos" class="lines">
+                    <input type="checkbox" name="photos" id="photos" required>
+                    <label for="photos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                    </label>
+                </section>
+
+        </article>
+        <footer id="send">
+            <button id="enviar" type="submit">Enviar</button>
+            <button id="apagar" type="reset">Apagar</button>
+        </footer>
+        </form>
+    </main>
+    <script src="scriptform.js"></script>
+</body>
+
+</html>
